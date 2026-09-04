@@ -53,6 +53,18 @@ jobs:
 
       - run: pip install "huggingface_hub[hf_xet]>=1.30"  # the trusted-publisher exchange needs a recent release
 
+      - name: Show this job's OIDC claims (temporary)
+        run: |
+          curl -sS -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=https://huggingface.co" \
+          | python3 -c 'import sys,json,base64
+          tok = json.load(sys.stdin)["value"]
+          p = tok.split(".")[1]
+          p += "=" * (-len(p) % 4)
+          c = json.loads(base64.urlsafe_b64decode(p))
+          for k in ("iss","aud","repository","repository_owner","ref","workflow_ref","sub","event_name"):
+              print(f"{k} = {c.get(k)}")'
+
       - name: Mint a write token for the backup dataset
         if: env.STORED_WRITE_TOKEN == 'false' && env.BACKUP_DATASET != ''
         id: mint
