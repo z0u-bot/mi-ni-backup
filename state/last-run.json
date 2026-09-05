@@ -1,9 +1,9 @@
 {
- "ran_at": "2026-09-04T09:36:21+00:00",
+ "ran_at": "2026-09-05T01:49:48+00:00",
  "backup": "z0u-bot/mi-ni-backup",
  "dry_run": false,
  "code": {
-  "error": "To https://github.com/z0u-bot/mi-ni-backup\n ! [remote rejected] snap/2026-09-04 -> snap/2026-09-04 (refusing to allow a GitHub App to create or update workflow `.github/workflows/lint-check.yml` without `workflows` permission)\nerror: failed to push some refs to 'https://github.com/z0u-bot/mi-ni-backup'"
+  "error": "To https://github.com/z0u-bot/mi-ni-backup\n ! [remote rejected] snap/2026-09-05 -> snap/2026-09-05 (refusing to allow a GitHub App to create or update workflow `.github/workflows/lint-check.yml` without `workflows` permission)\nerror: failed to push some refs to 'https://github.com/z0u-bot/mi-ni-backup'"
  },
  "store": {
   "source": "z0u/mi-ni-store",
@@ -11,74 +11,14 @@
   "copied": 152,
   "bytes": 3589596,
   "commits": [
-   "26bb9341d08e78dd1faecab08c54e7c3eb8ceecc"
+   "ab1ca9768478e2fdaf99ca6d481704b16d2b04cb"
   ]
  },
  "pub": {
   "source": "z0u/mi-ni-pub",
-  "seen": 57,
-  "copied": 57,
-  "commits": [
-   "565b61ede855b8f1bd74f8db813e6cda470e9bd8",
-   "2f14983b4be49f0c3ea934298868bce9a50d25a0",
-   "55f0d262bd39d0b5a9793330dc1e30fb464336f0",
-   "1875d05c7d324170c67d2a77e36cc375b524808e",
-   "c585aa11622b7043f0b5dfbf1e959b4ed603f287",
-   "5189902df602284f4cfde5c31511d5eea4aaa77d",
-   "a5de78adf8375c61d657fbd2b95c39a9bf5ddaf4",
-   "51f03e02cc34963494d542e931b5e422dbaf7d24",
-   "df94ec0189b02c41a9551da16c841acbd36872b1",
-   "cc0d0a0ef599a23c4dfc94ce65e9f79c0797f706",
-   "df15d2e52970f3e96ddfa9a574663875c39d384b",
-   "63f82def02323de4ca223ce101b6b2ad228be405",
-   "f0352ea12b74bf3456a3e4325df630751a698422",
-   "850dbbdc06f72b99c0bcf0d4eda8e4beb105c661",
-   "1be8bbfed03f0869dc69d76b7ff1ea8c313d6701",
-   "ac8fee62214d4ffaf5ad35d4daa315132a87ddf0",
-   "6bbe2bbf00ab38d85c438cf763399348df9c98cc",
-   "755c7cd992ad9924c4a5f9e053dbcda256a9e180",
-   "81fb18e6a82808cc23014240ef270d0e27e94871",
-   "b691395f063fd8b4e590da2e96f78e626cd2eaef",
-   "be08542ab3d72ba0964530e9eac6946567ce4575",
-   "fe5ec46a067b929d8d7382a69ff8817fa38e7b19",
-   "900eeb9680768f7fb16e597002b7ae355d9a3aa5",
-   "f2ee05ec8075b93b012e88a313527da1e2f6f6d1",
-   "7b5f9abe79724834cd08e5105798a75bce35f20e",
-   "86ff1fb9b29e9472abe1ff7e7ce6a0dd4c52ed54",
-   "40f293979f47bebd90c057ef94d6bd15aeab4573",
-   "e40cf5993812ab0cc2d3fb0f828cc4db30663659",
-   "70b5b62f3531c30c29db9a4b4fd0e0f3a37bb7d4",
-   "c86acdd10a4f161ce1d0b156857920a097f9f77b",
-   "741aeece67c43ef8395d1bddb5d8879b26209095",
-   "b24ad9f1136a85e36138811cb213ce97f3f95a19",
-   "deb408123ab5b10951085d5c232d002128dc4700",
-   "32a3397f301a0761fd8c8b50bf222666e639239e",
-   "5c19300d59a89932538178f7d0b414a9889b6197",
-   "1ef41d4a502815ae500c28ac59196eb31cf08a71",
-   "7e0d7faf9b686bbea39382c39b03f0771749a8b1",
-   "94b26a2e16372c6cb2641ea8c740128add289d9f",
-   "8c9877f4aeb820a02b6ff0bd81f713fd54df744e",
-   "52698eb44581a4bef498cc42d5e66b589d6224df",
-   "d334b097de5c0a610b8bde9434a8ef38293e64e8",
-   "30e6c3a7311fad27b56b9e4082887349c52f6f16",
-   "20e79662d0557a0d47d94e43bde1aca9f763fdb4",
-   "5ec08570ff8a7df998977ccd4af2a051c4420fda",
-   "6b59baa7c1deeddd18fc645692b0470fb43a2e7e",
-   "969f58e352dc97044a152fd41d0bd33f95f96a7b",
-   "86bfa8e182d43c35115f4d3c87fa1a0128b57db7",
-   "85b27e681034acf069400311b73cf97f50bfe864",
-   "5d074e7c4bf0a219fc3b5dbab923eafdd40eb9df",
-   "f7512b8c54326786c4999f907ec62de4eb412145",
-   "d44fcee1a7a114b457c2b4bafaee1ebd32e35bb6",
-   "7a5661cb8da32f1865e104e22cd8d55079505edb",
-   "04e1fd96b0e005db65764a4326b29c4a7399991d",
-   "437700bca37747b0b10179bd924f387d04f5ff34",
-   "a82fdc795d347f5dd804ef3f46cc5d953a041672",
-   "2f8d4bc43734ee0cf2b3195a7ec369a33d06da26",
-   "ab1ca9768478e2fdaf99ca6d481704b16d2b04cb"
-  ]
+  "seen": 57
  },
  "errors": [
-  "code: To https://github.com/z0u-bot/mi-ni-backup\n ! [remote rejected] snap/2026-09-04 -> snap/2026-09-04 (refusing to allow a GitHub App to create or update workflow `.github/workflows/lint-check.yml` without `workflows` permission)\nerror: failed to push some refs to 'https://github.com/z0u-bot/mi-ni-backup'"
+  "code: To https://github.com/z0u-bot/mi-ni-backup\n ! [remote rejected] snap/2026-09-05 -> snap/2026-09-05 (refusing to allow a GitHub App to create or update workflow `.github/workflows/lint-check.yml` without `workflows` permission)\nerror: failed to push some refs to 'https://github.com/z0u-bot/mi-ni-backup'"
  ]
 }
