@@ -1,9 +1,13 @@
 {
- "ran_at": "2026-09-05T01:51:45+00:00",
+ "ran_at": "2026-09-05T02:23:25+00:00",
+ "mirror": "z0u-bot/mi-ni-mirror",
  "backup": "z0u-bot/mi-ni-backup",
+ "backup_bucket": "z0u-bot/mi-ni-backup-store",
  "dry_run": false,
  "code": {
-  "error": "To https://github.com/z0u-bot/mi-ni-backup\n ! [remote rejected] snap/2026-09-05 -> snap/2026-09-05 (refusing to allow a GitHub App to create or update workflow `.github/workflows/lint-check.yml` without `workflows` permission)\nerror: failed to push some refs to 'https://github.com/z0u-bot/mi-ni-backup'"
+  "source": "https://github.com/z0u/mi-ni.git",
+  "sha": "db53f42a3ed692b1e3e28c4a052ece508bc41786",
+  "snapshot": "snap/2026-09-05"
  },
  "store": {
   "source": "z0u/mi-ni-store",
@@ -17,8 +21,5 @@
  "pub": {
   "source": "z0u/mi-ni-pub",
   "seen": 57
- },
- "errors": [
-  "code: To https://github.com/z0u-bot/mi-ni-backup\n ! [remote rejected] snap/2026-09-05 -> snap/2026-09-05 (refusing to allow a GitHub App to create or update workflow `.github/workflows/lint-check.yml` without `workflows` permission)\nerror: failed to push some refs to 'https://github.com/z0u-bot/mi-ni-backup'"
- ]
+ }
 }
