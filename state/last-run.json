@@ -1,28 +1,22 @@
 {
- "ran_at": "2026-09-08T03:30:32+00:00",
+ "ran_at": "2026-09-09T03:30:26+00:00",
  "mirror": "z0u-bot/mi-ni-mirror",
  "backup": "z0u-bot/mi-ni-backup",
  "backup_bucket": "z0u-bot/mi-ni-backup-store",
  "dry_run": false,
  "code": {
   "source": "https://github.com/z0u/mi-ni.git",
-  "sha": "cb4ae6e79a7c62167052b899e4cd6b4db0ec10d6",
-  "snapshot": "snap/2026-09-08"
+  "sha": "cb4ae6e79a7c62167052b899e4cd6b4db0ec10d6"
  },
  "store": {
   "source": "z0u/mi-ni-store",
   "seen": 152,
   "commits": [
-   "ab1ca9768478e2fdaf99ca6d481704b16d2b04cb"
+   "5d486b9492dce3b0ddd3a1d9d2142fa85d684d6a"
   ]
  },
  "pub": {
   "source": "z0u/mi-ni-pub",
-  "seen": 59,
-  "copied": 2,
-  "commits": [
-   "e58ab97a46498d14961d8e805bf95fa645cc4381",
-   "5d486b9492dce3b0ddd3a1d9d2142fa85d684d6a"
-  ]
+  "seen": 59
  }
 }
