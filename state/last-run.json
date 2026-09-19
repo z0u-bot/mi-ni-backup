@@ -1,22 +1,42 @@
 {
- "ran_at": "2026-09-18T03:29:16+00:00",
+ "ran_at": "2026-09-19T03:28:44+00:00",
  "mirror": "z0u-bot/mi-ni-mirror",
  "backup": "z0u-bot/mi-ni-backup",
  "backup_bucket": "z0u-bot/mi-ni-backup-store",
  "dry_run": false,
  "code": {
   "source": "https://github.com/z0u/mi-ni.git",
-  "sha": "cb4ae6e79a7c62167052b899e4cd6b4db0ec10d6"
+  "sha": "e7f3a5dc17ba2f2da2dca7a84aca183996962410",
+  "snapshot": "snap/2026-09-19"
  },
  "store": {
   "source": "z0u/mi-ni-store",
   "seen": 152,
+  "copied": 1,
+  "bytes": 961,
   "commits": [
-   "5d486b9492dce3b0ddd3a1d9d2142fa85d684d6a"
+   "a3dca71570e6d766ed5b85a2f1822b3efba8b14d"
   ]
  },
  "pub": {
   "source": "z0u/mi-ni-pub",
-  "seen": 59
+  "seen": 73,
+  "copied": 14,
+  "commits": [
+   "fc91d9b565619d9d2ca5741ffef7fdab3a493528",
+   "1cc3c059cf81fc3743ce4604d617e7f0092f7df6",
+   "65a9b0d87f42e41addf938e03c06decd4302edeb",
+   "e223076f1ddfbb9a3131841361fc3c85c9ac901b",
+   "bf7ec9d544f4a1e8626c974fc9df783a058e8b93",
+   "69892e947c6679dffa78ae41f47cb367db6e6c72",
+   "e1b7940ad4e103372058e9bd09465374ce2144c6",
+   "9eda2cca8c2f99bf46ff2dac0fa435ca70ca6bdf",
+   "de07089581f2a032a4dde821c4801f62b40aa82b",
+   "b90f213e74eb50af0ea4258a6bec180e42f197a0",
+   "256661e3121d6f375e0a6fea7e4b9e780a0cdf95",
+   "319a804f6426d915b3e1af51cce5e6a341091a7c",
+   "1e4a5021391f1e8d419543242970bef5ada4e915",
+   "b495ea736708e403f8a87d37f6d2d389f68c6a01"
+  ]
  }
 }
