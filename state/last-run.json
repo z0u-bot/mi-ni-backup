@@ -1,13 +1,12 @@
 {
- "ran_at": "2026-09-20T03:29:34+00:00",
+ "ran_at": "2026-09-21T03:31:14+00:00",
  "mirror": "z0u-bot/mi-ni-mirror",
  "backup": "z0u-bot/mi-ni-backup",
  "backup_bucket": "z0u-bot/mi-ni-backup-store",
  "dry_run": false,
  "code": {
   "source": "https://github.com/z0u/mi-ni.git",
-  "sha": "a24a8402492c79bfcbb2167a72b0327976a8abb4",
-  "snapshot": "snap/2026-09-20"
+  "sha": "a24a8402492c79bfcbb2167a72b0327976a8abb4"
  },
  "store": {
   "source": "z0u/mi-ni-store",
